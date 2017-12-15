@@ -4,7 +4,7 @@ PREFIX?=	/usr/local
 LIBDIR=		${PREFIX}/lib/pkg/plugins
 SHLIB_DIR?=	${LIBDIR}/
 SHLIB_NAME?=	${PLUGIN_NAME}.so
-INSTALL_AS_USER=	yes
+WITH_INSTALL_AS_USER= yes
 
 PLUGIN_NAME=	provides
 SRCS=		provides.c progressbar.c mkpath.c
